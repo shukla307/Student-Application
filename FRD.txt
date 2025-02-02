@@ -1,0 +1,44 @@
+Functional Requirement Document (FRD)
+1. Introduction
+The Admission Portal is a web-based application for managing student admission applications. Students can submit their details and documents, while admins can review, approve, or reject applications. Approved applications generate a PDF admission letter.
+
+2. Functional Requirements
+Student Application Submission:
+Students submit personal info, academic background, and documents.
+Validation: Required fields, valid email, and file format (PDF/image).
+
+Admin Review Interface:
+
+Admins view applications in a table.
+Admins approve/reject applications.
+Admins download admission letters for approved applications.
+
+Admission Letter Generation:
+
+PDF is generated upon approval.
+Contains student info and admission details.
+File Upload and Storage:
+Files are saved in static/uploads.
+Only PDF/image files are allowed.
+
+3. Non-Functional Requirements
+Performance: Handle up to 100 concurrent users.
+Security: Validate file uploads and restrict admin access.
+Usability: Intuitive and user-friendly interface.
+
+4. Technology Stack
+Frontend: HTML, CSS, JavaScript.
+Backend: Python, Flask.
+Database: SQLite
+PDF Generation: ReportLab.
+
+5. Use Cases
+Student submits application.
+Admin reviews and approves/rejects application.
+System generates admission letter for approved applications.
+
+6. Future Enhancements
+Email notifications.
+User authentication.
+Multi-institution support.
+
