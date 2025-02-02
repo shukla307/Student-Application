@@ -11,7 +11,7 @@ This is a Flask-based web application where students can submit their applicatio
 3. Install dependencies:  pip install -r requirements.txt
 4. Run the application:   python app.py
 5. Access the application in your browser at http://127.0.0.1:5000/
-6. Execute the unit tests:  python -m unittest tests/test_app.py
+6. Execute the unit tests: python test_app.py
    
 
 ## video link how the application work  
